@@ -16,8 +16,7 @@ public class Main {
 
         // How to play AUDIO with Java (.wav, .au, .aiff, etc...)
         String filePath = "musicPlayer /audio/Weit Weg (feat. DomX).wav"; // convert the existing audio file
-                                                                          // to "wav"
-        // and reupload
+                                                                          // to "wav" and reupload
         File file = new File(filePath);
 
         try (Scanner scanner = new Scanner(System.in);
